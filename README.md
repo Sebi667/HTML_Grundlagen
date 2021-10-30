@@ -4,7 +4,7 @@
 * Matrikel-Nummer: 268040
 * Kurs: MIB 2 Gruppe A
 
-##Aufgabe 2
+## Aufgabe 2
 * Link zum Source-Code:
 * A2_Frontpage: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A2_CSS/A2_Frontpage.html
 * A2_Events: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A2_CSS/A2_Events.html
