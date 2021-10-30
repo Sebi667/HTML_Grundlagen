@@ -1,0 +1,45 @@
+ 
+  @media (min-width: 100em) {
+    aside {
+      float: left;
+      width: 50%;
+    }
+  }
+
+h1 {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-style: italic;
+}
+
+#Seitenueberschrift {
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(183, 244, 247);
+    color: #000;
+}
+
+img {
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px grey;
+}
+
+div {
+    width: 1000px;
+    border: 10px solid aquamarine;
+    padding: 30px;
+    margin: 50px;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+[href] {
+    color: brown;
+    font-style: italic;
+  }
+
+  a:hover {
+    background-color: white;
+  }
+  
