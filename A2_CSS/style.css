@@ -5,9 +5,9 @@
    }
  }
 
- img {
-  float: right;
-  margin-right: 550px;
+ #Bild {
+  float: inline;
+  margin-left: 150px;
   border-radius: 1rem;
   box-shadow: 10px 10px 10px grey;
 }
@@ -16,6 +16,7 @@
   float: left;
   margin-left: 100px;
   margin-top: 70px;
+  width: 330px;
   font-family: 'Dancing Script', cursive;
   font-size: 40px;
 }
@@ -58,7 +59,7 @@
    background-color: #ffeda0;
    padding: 30px;
    margin: 50px;
-   margin-left: 725px;
+   margin-left: 735px;
    font-size: larger;
    font-family: 'Open Sans', sans-serif;
  }
@@ -93,5 +94,19 @@
  }
 
  #Info {
-  margin-left: 665px;
+  margin-left: 675px;
+ }
+
+ #Bild1 {
+  float: left;
+  margin-left: 400px;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px grey;
+ }
+
+ #Bild2 {
+  float: inline;
+  margin-left: 150px;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px grey;
  }
