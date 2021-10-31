@@ -1,45 +1,97 @@
- 
-  @media (min-width: 100em) {
-    aside {
-      float: left;
-      width: 50%;
-    }
-  }
+ @media (min-width: 300em) {
+   aside {
+     float: left;
+     width: 50%;
+   }
+ }
 
-h1 {
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-style: italic;
+ img {
+  float: right;
+  margin-right: 550px;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px grey;
 }
 
-#Seitenueberschrift {
-    font-style: italic;
+.Seitenueberschrift {
+  float: left;
+  margin-left: 100px;
+  margin-top: 70px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
 }
 
-body {
-    background-color: rgb(183, 244, 247);
-    color: #000;
-}
+ ul {
+   list-style-type: none;
+   margin: 5;
+   padding: 2;
+   overflow: hidden;
+   background-color: #c2b280;
+ }
 
-img {
-    border-radius: 1rem;
-    box-shadow: 10px 10px 10px grey;
-}
+ li {
+   float: left;
+ }
 
-div {
-    width: 1000px;
-    border: 10px solid aquamarine;
-    padding: 30px;
-    margin: 50px;
-    font-size: larger;
-    font-family: 'Open Sans', sans-serif;
-  }
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
 
-[href] {
-    color: brown;
-    font-style: italic;
-  }
+ li a:hover {
+   background-color: whitesmoke;
+ }
 
-  a:hover {
-    background-color: white;
-  }
-  
+
+
+ body {
+   background-color: rgb(183, 244, 247);
+   color: #000;
+ }
+
+ div {
+   float: left;
+   width: 1000px;
+   border: 10px solid aquamarine;
+   background-color: #ffeda0;
+   padding: 30px;
+   margin: 50px;
+   margin-left: 725px;
+   font-size: larger;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ [href] {
+   color: brown;
+   font-style: italic bold;
+ }
+
+ a:hover {
+   background-color: white;
+ }
+
+ table {
+   float: left;
+   font-size: larger;
+   width: 1200px;
+   margin: 50px;
+   margin-left: 690px;
+   background-color: #ffeda0;
+   border-collapse: collapse;
+   border: none;
+ }
+
+ thead {
+   background-color: #f3c600;
+ }
+
+ td, th {
+   text-align: left;
+   padding: 0.5em 1em;
+ }
+
+ #Info {
+  margin-left: 665px;
+ }
