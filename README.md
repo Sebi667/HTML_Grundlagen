@@ -9,6 +9,8 @@
 * A2_Frontpage: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A2_CSS/A2_Frontpage.html
 * A2_Events: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A2_CSS/A2_Events.html
 * style.css: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A2_CSS/style.css
+## Update:
+* Google-Fonts richtig eingebunden
 
 ## Aufgabe 1 - HTML Grundlagen
 * Link zum Source-Code:
