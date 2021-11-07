@@ -11,6 +11,10 @@
 * style.css: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A2_CSS/style.css
 ## Update:
 * Google-Fonts richtig eingebunden
+* Überschriften werden jetzt per Animation "geschrieben"
+* Bei Hover-Effekten wird jetzt eine betimmte transition-duration verwendet.
+* Im zuge dieser Änderungen wurden pseudoelemente verwendet.
+* Responsive-Design wurde überarbeitet - es sollten jetzt beim Skalieren des Fensters keine Bildelemente den Rand verlassen
 
 ## Aufgabe 1 - HTML Grundlagen
 * Link zum Source-Code:

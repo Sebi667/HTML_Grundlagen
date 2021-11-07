@@ -1,24 +1,43 @@
- @media (min-width: 300em) {
-   aside {
-     float: left;
-     width: 50%;
-   }
- }
 
  #Bild {
   float: inline;
-  margin-left: 150px;
+  margin-left: 400px;
+  margin: 15px;
   border-radius: 1rem;
   box-shadow: 10px 10px 10px grey;
+  width: min(90%,1400px);
+  height: auto;
 }
 
 .Seitenueberschrift {
   float: left;
+  position: relative;
   margin-left: 100px;
   margin-top: 70px;
   width: 330px;
   font-family: 'Dancing Script', cursive;
   font-size: 40px;
+}
+
+.Seitenueberschrift::before,
+.Seitenueberschrift::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.Seitenueberschrift::before {
+  background: rgb(183, 244, 247);
+  animation: typewriter 4s ease forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left:100%;
+  }
 }
 
  ul {
@@ -39,10 +58,11 @@
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
+   transition-duration: 350ms;
  }
 
  li a:hover {
-   background-color: whitesmoke;
+   background: whitesmoke;
  }
 
 
@@ -54,31 +74,43 @@
 
  div {
    float: left;
-   width: 1000px;
+   width: 800px, min(90%, 800px);
    border: 10px solid aquamarine;
    background-color: #ffeda0;
    padding: 30px;
    margin: 50px;
-   margin-left: 735px;
+   margin-left: 100px;
+  
    font-size: larger;
    font-family: 'Open Sans', sans-serif;
+ }
+
+
+ div::first-letter {
+   font-size: 130%;
+ }
+
+ a::first-letter {
+   font-size: 130%;
  }
 
  [href] {
    color: brown;
    font-style: italic bold;
+   transition-duration: 350ms;
  }
 
  a:hover {
-   background-color: white;
+   background-color: whitesmoke;
  }
 
  table {
-   float: left;
+   float: inline-start;
    font-size: larger;
-   width: 1200px;
-   margin: 50px;
-   margin-left: 690px;
+   width: 1200px,min(80%, 1200px);
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 50px;
    background-color: #ffeda0;
    border-collapse: collapse;
    border: none;
@@ -94,19 +126,29 @@
  }
 
  #Info {
-  margin-left: 675px;
+  float: left;
+  margin-left: 100px;
+  width: min(90%,1200px);
+  height: 720px, min(100%, 720px);
  }
 
  #Bild1 {
-  float: left;
-  margin-left: 400px;
-  border-radius: 1rem;
-  box-shadow: 10px 10px 10px grey;
- }
-
- #Bild2 {
   float: inline;
-  margin-left: 150px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 50px;
   border-radius: 1rem;
   box-shadow: 10px 10px 10px grey;
+  max-width: 100%;
+
+  }
+  
+ #Bild2 {
+  float: inline-end;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px grey;
+  max-width: 100%;
  }
