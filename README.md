@@ -4,6 +4,11 @@
 * Matrikel-Nummer: 268040
 * Kurs: MIB 2 Gruppe A
 
+## Aufgabe 3 - TypeScript
+* Link zum Source-Code:
+* script_vorlage1.ts: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A3_TypeScript/script_vorlage1.ts
+* index.html: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A3_TypeScript/index.html
+
 ## Aufgabe 2 - CSS
 * Link zum Source-Code:
 * A2_Frontpage: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A2_CSS/A2_Frontpage.html
