@@ -6,10 +6,10 @@
 
 ## Aufgabe 4/5 - TS DOM und localStorage
 * Link zum Source-Code:
-* Events.html: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A3_TypeScript/script_vorlage1.ts
-* style.css: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A3_TypeScript/index.html
-* script.ts:
-* script.js:
+* Events.html: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A4_TS%20DOM_und_localStorage/Events.html
+* style.css: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A4_TS%20DOM_und_localStorage/style.css
+* script.ts: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A4_TS%20DOM_und_localStorage/script.ts
+* script.js: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A4_TS%20DOM_und_localStorage/script.js
 
 ## Aufgabe 3 - TypeScript
 * Link zum Source-Code:
