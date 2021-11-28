@@ -4,6 +4,13 @@
 * Matrikel-Nummer: 268040
 * Kurs: MIB 2 Gruppe A
 
+## Aufgabe 4/5 - TS DOM und localStorage
+* Link zum Source-Code:
+* Events.html: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A3_TypeScript/script_vorlage1.ts
+* style.css: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A3_TypeScript/index.html
+* script.ts:
+* script.js:
+
 ## Aufgabe 3 - TypeScript
 * Link zum Source-Code:
 * script_vorlage1.ts: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A3_TypeScript/script_vorlage1.ts
