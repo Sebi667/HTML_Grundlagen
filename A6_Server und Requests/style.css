@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(255, 212, 148);
+    font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media (min-width: 800px) {
+    main {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1000px) {
+    main {
+        width: 80%;
+    }
+}
+
+.Seitenueberschrift {
+    margin-left: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+  }
+
+main {
+    display: flex;
+    background-color: rgb(255, 197, 109);
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100px;
+}
+
+form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.window {
+    border-radius: 8px;
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+    background-color: rgb(199, 158, 96);
+    padding: 5px;
+    margin: 5px;
+}
+
+#date_local_input {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 216, 155);
+    padding: 2px;
+}
+
+button {
+    border-color: rgb(143, 122, 92);
+    justify-items: center;
+    width: 80px;
+    min-height: 25px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(199, 158, 96);
+    transition: all 0.3s;
+    border-radius: 8px;
+    line-height: 1;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+}
+
+#answer {
+    background-color: rgb(255, 216, 155);
+    min-width: 180px;
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    transition: all 0.3s;
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 3;
+    font-size: 14pt;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    transition: all 0.3s;  
+}
+
