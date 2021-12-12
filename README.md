@@ -7,8 +7,7 @@
 ## Aufgabe 6 - Server und Requests
 Hinweis: Server muss per Konsolencommand (node NodeJS\NodeServer.js) gestartet werden, um den vollen Funktionsrahmen zu gewährleisten.
 * Link zum Source-Code:
-* MainPage:  
-* style.css: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A4_TS%20DOM_und_localStorage/style.css
+* MainPage: https://github.com/Sebi667/HTML_Grundlagen/blob/main/A6_Server%20und%20Requests/MainPage.html 
 
 ## Aufgabe 4/5 - TS DOM und localStorage
 * Link zum Source-Code:
