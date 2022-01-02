@@ -1,0 +1,235 @@
+body {
+
+    background-image: linear-gradient(to bottom, rgb(53, 14, 58)50%, rgb(96, 29, 105)100%);
+    background-color: rgb(96, 29, 105);
+    background-repeat: no-repeat;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+@media (min-width: 1300px) {
+    main {
+
+    }
+}
+
+@media (max-width: 1300px) {
+    main {
+        width: 80%;
+    }
+}
+
+main {
+    display: flex;
+    background-color: rgb(199, 158, 96);
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100px
+}
+
+form {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.fieldWrapper {
+    border-radius: 8px;
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+    background-color: rgb(199, 158, 96);
+    padding: 5px;
+    margin: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid black;
+
+}
+
+.field {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 216, 158);
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.field input:focus, .field input {
+    outline: none;
+    border: none;
+    margin: 5px;
+}
+
+.toDoOUT {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.toDoElement td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 216, 158);
+    text-align: center;
+}
+
+tr {
+    height: 50px;
+}
+td{
+    min-width: 50px;
+}
+
+.toDoElement:first-child td:first-child {
+    border-top-left-radius: 5px;
+}
+
+.toDoElement:first-child td:last-child {
+    border-top-right-radius: 5px;
+}
+
+.toDoElement:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.toDoElement:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.interpret_out {
+    overflow: hidden;
+}
+
+.price_out {
+    width: 15%;
+    overflow: hidden;
+}
+
+.datetime_out {
+    width: 33%;
+    overflow: hidden;
+}
+
+.delet {
+    width: 80px;
+}
+
+.deletButton, .editButton {
+    margin: auto;
+    display: block;
+    background: transparent;
+    border: transparent;
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px
+}
+
+.deletButton:hover {
+    background-color: rgb(165, 28, 28);
+    color: white;
+}
+
+.editButton:hover {
+    background-color: rgb(28, 165, 39);
+    color: white;
+}
+
+#interpret_input, #price_input, #datetime_local_input {
+    width: 150px;
+    font-size: 10pt;
+}
+
+footer {
+    position: sticky;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+footer #links {
+
+    float: left;
+}
+
+footer #links a {
+    text-decoration: none;
+    color: black;
+    font-size: 12pt;
+    line-height: 1.5;
+    background-color: rgb(199, 158, 96);
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+    display: block;
+    transition: all 0.2s;
+}
+
+footer #links a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 216, 158);
+    box-shadow: 7px 7px 0px 0px rgb(156, 109, 37);
+    transition: all 0.2s;
+}
+
+#author {
+    float: right;
+    color: black;
+    font-size: 12pt;
+    line-height: 1.5;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    background-color: rgb(199, 158, 96);
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+    display: block;
+}
+
+button {
+    border: none;
+    justify-items: center;
+    width: 80px;
+    min-height: 25px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(199, 158, 96);
+    transition: all 0.2s;
+    border-radius: 8px;
+    line-height: 1;
+    cursor: pointer;
+    user-select: none;
+
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 12pt;
+}
+
+
+button:hover {
+    background-color: rgb(255, 216, 158);
+    transition: all 0.2s;
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
