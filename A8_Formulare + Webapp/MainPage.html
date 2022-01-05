@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulare + Webapp</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="JS/Script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <Access-Control-Allow-Origin>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <form id="eventsFrom">
+            <div class="fieldWrapper"> 
+                <div class="field">
+                    <label for="interpret_input">Interpret</label> <br>
+                    <input id="interpret_input" name="interpret_input" type="text" placeholder="Interpret">
+                </div>
+                <div class="field">
+                    <label for="price_input">Preis</label><br>
+                    <input id="price_input" name="price_input"  type="number" placeholder="Price">
+                </div>
+                <div class="field">
+                    <label for="datetime_local_input">Datum und Uhrzeit</label><br>
+                    <input id="datetime_local_input" name="datetime_local_input" type="datetime-local">
+                </div class="field">
+
+                <button type="submit" id="Button-Add">Hinzufügen</button>
+                <div></div>
+                <h1>Event Tabelle</h1>
+                <hr>
+                <div id="toDoOUT">
+                    <table>
+                        <tr class="toDoElement">
+                            <td class="id_out">ID</td>
+                            <td class="interpret_out">Interpret</td>
+                            <td class="price_out">Preis</td>
+                            <td class="datetime_out">Datum und Uhrzeit</td>
+                            <td class="delet"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div id="TESTDIV" >
+            <button id="TEST" type="button">TEST</button>
+        </div>
+    </footer>
+</body>
+</html>

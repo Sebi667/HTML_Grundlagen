@@ -5,7 +5,6 @@ var Aufgabe8;
     const url = "http://localhost:3500";
     const deletPfad = "/delet";
     let idList = new Set();
-    //load end check if something is in the database
     load();
     let testF = document.getElementById("TEST");
     testF.addEventListener("click", test);
@@ -15,26 +14,25 @@ var Aufgabe8;
         buttonEvent.preventDefault();
         let _id;
         let formData = new FormData(buttonEvent.currentTarget);
-        //console.log(buttonEvent.currentTarget);
         let interpret = formData.get("interpret_input");
         let price = parseInt((formData.get("price_input")));
         let date = new Date(formData.get("datetime_local_input"));
         if (interpret === "") {
             console.error("interpret  is empty");
-            //set inteperet red
+            //set interpret red
             return;
         }
         if (isNaN(price) || price === null) {
             console.error("price is empty");
-            //set inteperet red
+            //set interpret red
             return;
         }
         if (isNaN(Date.parse(date.toString()))) {
             console.error("date is empty");
-            //set inteperet red
+            //set interpret red
             return;
         }
-        _id = creatID(); //chekc wiht databes if _id is used?
+        _id = creatID();
         let event = {
             _id,
             interpret,
@@ -45,14 +43,13 @@ var Aufgabe8;
         createElement(event);
     }
     function creatID() {
-        let _id; //-> chek if _id is there   
+        let _id;
         _id = Math.floor((Math.random() * 1000));
         while (idList.has(_id)) {
             _id = Math.floor((Math.random() * 1000));
         }
         return _id;
     }
-    //fetsh post and get -> create new if _id is empty if not edit current
     async function postForm(event) {
         console.log(JSON.stringify(event));
         await fetch(url + pfad, {
@@ -118,6 +115,7 @@ var Aufgabe8;
         cell[4].append(addDeletButton(event._id));
         return cell;
     }
+    //Nichtmehr fertig bekommen
     function addDeletButton(_id) {
         let delet = document.createElement("button");
         delet.dataset._id = _id + "";
@@ -125,7 +123,6 @@ var Aufgabe8;
         delet.className = "deletButton";
         delet.setAttribute("type", "button");
         delet.addEventListener("click", function deletElement() {
-            //add functionality
             console.log("DeletTableEvent: [" + _id + "]");
             removeEventElement(_id);
             idList.delete(_id);
@@ -146,7 +143,6 @@ var Aufgabe8;
             console.log("no events found");
             return;
         }
-        // ony create new events in HTML if ther is something in the DB
         events.forEach(event => {
             createElement(event);
             idList.add(event._id);

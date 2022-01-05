@@ -13,7 +13,6 @@ namespace Aufgabe8 {
 
     let idList = new Set();
 
-    //load end check if something is in the database
     load();
     let testF = document.getElementById("TEST");
     testF.addEventListener("click", test);
@@ -29,29 +28,27 @@ namespace Aufgabe8 {
         let _id: number;
         let formData: FormData = new FormData(<HTMLFormElement>buttonEvent.currentTarget);
 
-        //console.log(buttonEvent.currentTarget);
-
         let interpret: string = <string>formData.get("interpret_input");
         let price: number = parseInt(<string>(formData.get("price_input")));
         let date: Date = new Date(<string>formData.get("datetime_local_input"));
 
         if (interpret === "") {
             console.error("interpret  is empty");
-            //set inteperet red
+            //set interpret red
             return;
         }
         if (isNaN(price) || price === null) {
             console.error("price is empty");
-            //set inteperet red
+            //set interpret red
             return;
         }
         if (isNaN(Date.parse(date.toString()))) {
             console.error("date is empty");
-            //set inteperet red
+            //set interpret red
             return;
         }
 
-        _id = creatID(); //chekc wiht databes if _id is used?
+        _id = creatID(); 
 
         let event: EventElement = {
             _id,
@@ -64,7 +61,7 @@ namespace Aufgabe8 {
     }
 
     function creatID(): number {
-        let _id: number; //-> chek if _id is there   
+        let _id: number;   
         _id = Math.floor((Math.random() * 1000));
 
         while (idList.has(_id)) {
@@ -72,8 +69,6 @@ namespace Aufgabe8 {
         }
         return _id;
     }
-
-    //fetsh post and get -> create new if _id is empty if not edit current
 
     async function postForm(event: EventElement) {
         console.log(JSON.stringify(event));
@@ -152,7 +147,7 @@ namespace Aufgabe8 {
 
         return cell;
     }
-
+    //Nichtmehr fertig bekommen
     function addDeletButton(_id: number): HTMLElement {
         let delet: HTMLElement = document.createElement("button");
         delet.dataset._id = _id + "";
@@ -160,7 +155,6 @@ namespace Aufgabe8 {
         delet.className = "deletButton";
         delet.setAttribute("type", "button");
         delet.addEventListener("click", function deletElement() {
-            //add functionality
             console.log("DeletTableEvent: [" + _id + "]");
             removeEventElement(_id);
             idList.delete(_id);
@@ -183,7 +177,7 @@ namespace Aufgabe8 {
             console.log("no events found");
             return;
         }
-        // ony create new events in HTML if ther is something in the DB
+        
         events.forEach(event => {
             createElement(event);
             idList.add(event._id);
