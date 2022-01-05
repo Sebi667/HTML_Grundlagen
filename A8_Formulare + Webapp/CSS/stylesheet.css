@@ -6,16 +6,23 @@ body {
     font-family: 'Encode Sans', sans-serif;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     main {
-
+        width: 1200px;
+    }
+    .fieldWrapper{
+        min-width: 500px;
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
     main {
-        width: 80%;
+        width: 90%;
     }
+    .fieldWrapper{
+        min-width: 80%;
+    }
+   
 }
 
 main {
@@ -38,7 +45,7 @@ form {
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    
+
 }
 
 .fieldWrapper {
@@ -84,7 +91,8 @@ form {
 tr {
     height: 50px;
 }
-td{
+
+td {
     min-width: 50px;
 }
 
@@ -126,7 +134,7 @@ table {
 }
 
 .delet {
-    width: 80px;
+    width: 50px;
 }
 
 .deletButton, .editButton {
@@ -151,7 +159,7 @@ table {
 }
 
 #interpret_input, #price_input, #datetime_local_input {
-    width: 150px;
+    width: 200px;
     font-size: 10pt;
 }
 
