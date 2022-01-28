@@ -1,0 +1,195 @@
+body {
+
+    background-color: rgb(183, 244, 247);
+    color: #000;
+}
+
+@media (min-width: 1200px) {
+    main {
+        width: 1200px;
+    }
+    .fieldWrapper{
+        min-width: 500px;
+    }
+}
+
+@media (max-width: 1200px) {
+    main {
+        width: 90%;
+    }
+    .fieldWrapper{
+        min-width: 80%;
+    }
+   
+}
+
+main {
+    display: flex;
+    background-color: #f3c600;
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100px
+}
+
+form {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.fieldWrapper {
+    border-radius: 8px;
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+    background-color: #e6bb00;
+    padding: 5px;
+    margin: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid black;
+
+}
+
+.field {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 216, 158);
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.field input:focus, .field input {
+    outline: none;
+    border: none;
+    margin: 5px;
+}
+
+.toDoOUT {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.toDoElement td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 216, 158);
+    text-align: center;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    min-width: 50px;
+}
+
+.toDoElement:first-child td:first-child {
+    border-top-left-radius: 5px;
+}
+
+.toDoElement:first-child td:last-child {
+    border-top-right-radius: 5px;
+}
+
+.toDoElement:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.toDoElement:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.interpret_out {
+    overflow: hidden;
+}
+
+.price_out {
+    width: 15%;
+    overflow: hidden;
+}
+
+.datetime_out {
+    width: 33%;
+    overflow: hidden;
+}
+
+.delet {
+    width: 50px;
+}
+
+.deletButton, .editButton {
+    margin: auto;
+    display: block;
+    background: transparent;
+    border: transparent;
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px
+}
+
+.deletButton:hover {
+    background-color: rgb(165, 28, 28);
+    color: white;
+}
+
+.editButton:hover {
+    background-color: rgb(28, 165, 39);
+    color: white;
+}
+
+#interpret_input, #price_input, #datetime_local_input {
+    width: 200px;
+    font-size: 10pt;
+}
+
+footer {
+    position: sticky;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+button {
+    justify-items: center;
+    width: 100px;
+    min-height: 25px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(228, 183, 115);
+    transition: all 0.2s;
+    border-radius: 8px;
+    line-height: 1;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    transition: all 0.2s;
+    box-shadow: 5px 5px 0px 0px rgb(156, 109, 37);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
