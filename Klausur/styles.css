@@ -1,0 +1,40 @@
+
+  .margin {
+    margin: 2em;
+  }
+
+  .padding {
+    padding: 2em;
+  }
+  
+  #blue {
+    background-color: lightblue;
+    margin-left: 200px;
+  }
+  
+  div p, [type]  {
+    color: white;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  footer.bottom.small {
+    font-size: 0.7em;
+    position: fixed;
+    bottom: 0px;
+  }
+
+  .white {
+    background-color: white;
+    width:100%;
+  }
+
+  .black {
+    background-color: black;
+  }
