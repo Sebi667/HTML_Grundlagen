@@ -38,3 +38,8 @@
   .black {
     background-color: black;
   }
+
+  .huge {
+    font-size: large;
+    font-style: italic;
+  }
